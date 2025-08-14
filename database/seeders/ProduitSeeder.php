@@ -19,7 +19,7 @@ class ProduitSeeder extends Seeder
         'description' => 'Tilapia frais du jour',
         'prix' => 1500,
         'image' => 'produits/tilapia.jpg',
-        'categorie_id' => 1
+        'categorie_id' => 13
         ]);
 
         Produit::create([
@@ -27,7 +27,7 @@ class ProduitSeeder extends Seeder
         'description' => 'Viande de qualité',
         'prix' => 3000,
         'image' => 'produits/tilapia.jpg',
-        'categorie_id' => 2
+        'categorie_id' => 14
         ]);
     }
 }
